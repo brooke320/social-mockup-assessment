@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #d9d9d9;
+    font-size: 100%
+}
+
+.wrapper {
+    position: relative;
+    max-width: 850px;
+    height: 960px;
+    margin: 0 auto;
+}
+
+
+/*.content {
+    max-width: 900px;
+    margin: auto;
+}*/
+
+body {
+   
+    font-family: 'Cabin', sans-serif;
+}
+
+header {
+    width: 850px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #CADEDE;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid #fff;
+}
+
+.website {
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    /*border: 2px solid grey;*/
+    bottom: 50px;
+    left: 235px;
+    font-size: 20px;
+}
+
+.website a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+.logo {
+    position: absolute;
+    display: inline-block;
+    color: #BF9FAE;
+    z-index: 3;
+    /*border: 2px solid grey;*/
+    bottom: 80px;
+    left: 235px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.navbar {
+    position: absolute;
+    background-color: #6D7777; 
+    border: 1px solid #fff;
+    color: #DAF0F0;
+    width: 850px;
+    bottom: -19px;
+    left: -1px;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    z-index: 4;
+}
+
+.navbar a {
+  
+   display: inline-block;
+   font-size: 17px;
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+   text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+    
+}
+
+.dropdown .dropbtn {
+  
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #6D7777;
+    font-family: inherit;
+}
+
+
+.dropbtn .material-icons {
+    position: relative;
+    top: 3px;
+    right: 1px;
+    font-size: 17px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #8E9C9C;
+    
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+}
+ 
+.dropdown-content a {
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-size: cover;
+}
+
+.dropdown-content a:hover {
+    background-color: #BF9FAE;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*position: absolute;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0px;  /* Preferred icon size */
+  /*display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  text-rendering: optimizeLegibility;*/
+  
+.button {
+    display: inline-block;
+    background-color: #fff;
+    display: inline-block;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.button1 {
+    position: absolute;
+    border: 1px solid #BF9FAE;
+    color: #6D7777;
+    border-radius: 4px;
+    font-family: inherit;
+    padding: 5px 10px;
+    bottom: 35px;
+    right: 222px;
+}
+
+.button1 .material-icons {
+    position: relative;
+    font-size: 14px;
+    top: 2px;
+}
+
+.button2 {
+    position: absolute;
+    border: 1px solid #BF9FAE;
+    color: #6D7777;
+    border-radius: 4px;
+    font-family: inherit;
+    padding: 5px 10px;
+    bottom: 35px;
+    right: 138px;
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
+.button2 .material-icons {
+    position: relative;
+    font-size: 14px;
+    top: 2px;
+}
+
+.button3 {
+    position: absolute;
+    border: 1px solid #BF9FAE;
+    color: #6D7777;
+    border-radius: 4px;
+    font-family: inherit;
+    padding: 5px 10px;
+    bottom: 35px;
+    right: 51px;
+}
+
+.button3 .material-icons {
+    position: relative;
+    font-size: 14px;
+    top: 2px;
+}
+
+.button4 {
+    position: absolute;
+    border: 1px solid #BF9FAE;
+    color: #6D7777;
+    border-radius: 4px;
+    font-family: inherit;
+    padding: 5px 10px;
+    bottom: 35px;
+    right: 16px; 
+}
+
+.button4 .material-icons {
+    position: relative;
+    font-size: 14px;
+    top: 2px;
+}
+
+/*.navbar ul  {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+.navbar li:last-child a {
+    border-right: none;
+ }
+.navbar ul li a {
+    border-right: 3px solid #91D2D9;
+    display: inline-block;
+    padding: 10px;
+}
+/*.navbar ul li a:hover,
+.navbar ul li a.current {
+    background: #444;
+    color: #6AA695;
+    background-size: 100%;
+} */
+
+img {
+    max-width: 100%;
+    height: auto;
+} 
+
+.headshot {
+    background: url(images/brooke-lark-ZkgWJ4BfgsE-unsplash.jpg) ;
+    
+    width: 210px;
+    left: 15px;
+    bottom: 1px;
+    background-repeat: no-repeat no-repeat; 
+    background-size: cover;
+    position: absolute;
+    z-index: 5;
+}
+
+.column1 {
+    
+    position: absolute;
+    width: 328px;
+    height: 164px;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #CADEDE;
+    border: 1px solid #fff;
+    top: 320px;
+    
+}
+
+.box1 {
+    position: absolute;
+    width: 328px;
+    height: 106px;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #8E9C9C;
+    border-bottom: 1px solid #8E9C9C;
+    right: -1px;
+    top: 22px;
+}
+
+.box1 > h3 {
+    color: #6D7777;
+}
+
+.box1 > p {
+    padding-top: 6px;
+    
+}
+.column2 {
+    position: absolute;
+    width: 512px;
+    height: 270px;
+    margin-left: 5px;
+    background-color: #CADEDE;
+    border: 1px solid #fff;
+    left: 332px;
+    top: 320px;
+    
+} 
+
+.box2 > img {
+    background-repeat: no-repeat no-repeat; 
+    background-size: cover;
+    position: absolute;
+    width: 350px;
+    top: 17px;
+    left: 78px;
+}
+
